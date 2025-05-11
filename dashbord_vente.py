@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title("📊 Tableau de Bord des Ventes - Josias Nteme")
+st.title("📊 Tableau de Bord des Ventes")
 
 # 📥 Upload des fichiers CSV ou excel
 st.sidebar.header("Téléversement des fichiers")
