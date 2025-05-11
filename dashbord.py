@@ -59,7 +59,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # === Logo ===
-st.sidebar.image("logo.JPEG", caption="SDA Academy", use_container_width=True)
+st.sidebar.image("logo.jpeg", caption="SDA Academy", use_container_width=True)
 
 # === Titre animé ===
 st.markdown("<h1 style='text-align: center;'>📊 Tableau de Bord des Ventes</h1>", unsafe_allow_html=True)
