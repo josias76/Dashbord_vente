@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.title("📊 Tableau de Bord des Ventes - Josias Nteme")
 
-# 📥 Upload des fichiers CSV
+# 📥 Upload des fichiers CSV ou excel
 st.sidebar.header("Téléversement des fichiers")
 uploaded_files = st.sidebar.file_uploader(
     "Téléversez un ou plusieurs fichiers CSV de ventes",
@@ -15,7 +15,7 @@ uploaded_files = st.sidebar.file_uploader(
 # Traitement des fichiers
 if uploaded_files:
     # Lecture et concaténation
-    df_list = [pd.read_csv(file, parse_dates=["Date"]) for file in uploaded_files]
+    df_list = [pd.read_excel(file, parse_dates=["Date"]) for file in uploaded_files]
     df = pd.concat(df_list)
 
     # Filtres de dates
