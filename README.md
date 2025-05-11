@@ -1,12 +1,12 @@
+# 📊 Dashboard des Ventes - E-commerce
 
+Ce projet présente un tableau de bord interactif développé avec **Streamlit**, permettant d’analyser des fichiers de ventes CSV (années ou mois) téléchargés dynamiquement par l’utilisateur.
 
 ![img](https://github.com/user-attachments/assets/089a90db-a6a3-4b0a-910b-352ab97619c5)
 
 
 
-# 📊 Dashboard des Ventes - E-commerce
 
-Ce projet présente un tableau de bord interactif développé avec **Streamlit**, permettant d’analyser des fichiers de ventes CSV (années ou mois) téléchargés dynamiquement par l’utilisateur.
 
 ## 🔍 Fonctionnalités :
 - Téléversement de **plusieurs fichiers CSV**
