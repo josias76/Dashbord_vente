@@ -15,7 +15,7 @@ uploaded_files = st.sidebar.file_uploader(
 # Traitement des fichiers
 if uploaded_files:
     # Lecture et concaténation
-    df_list = [pd.read_excel(file, parse_dates=["Date"]) for file in uploaded_files]
+    df_list = [pd.read_csv(file, parse_dates=["Date"]) for file in uploaded_files]
     df = pd.concat(df_list)
 
     # Filtres de dates
