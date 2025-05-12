@@ -28,4 +28,4 @@ Développé par **Josias Nteme** — Statisticien, Data Analyst & Data Scientist
 ## 🚀 Lancer l’application en local
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run dashbord.py
